@@ -23,6 +23,9 @@
     },
     "ntp": {
       "locked_version": "1.5.0"
+    },
+    "iptables": {
+      "locked_version": "0.12.0"
     }
   }
 }
