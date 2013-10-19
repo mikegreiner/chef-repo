@@ -8,6 +8,8 @@ version          '0.1.0'
 depends          'build-essential'
 depends          'apache2', '>=1.0.4'
 depends          'chef-client'
-depends          'apt'
+# Commented because this caused a ridley "no such file or directory" blow-up when running
+# vagrant up. May be due to turning off SSL via ~/.berkshelf/config.json.
+#depends          'apt'
 depends          'ntp'
 depends          'iptables'
